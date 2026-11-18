@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidratul Muntaha — Computer Science & Engineering | Web Developer</title>
+  <meta name="description" content="Personal portfolio of Sidratul Muntaha — Computer Science & Engineering Student (7th Semester), Web Developer, and Undergraduate Researcher." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-line" id="scrollLine"></div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo">
+        <span class="logo-badge">SM</span>
+        <span>Sidratul Muntaha</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#training">Training</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="nav-action">Contact Me</a>
+      <button class="mobile-toggle" id="mobileToggle" aria-expanded="false" aria-controls="navMenu">MENU</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-layout">
+        <div>
+          <h1 class="hero-heading">
+            <span class="highlight">Sidratul Muntaha</span>
+          </h1>
+          <p class="hero-role">Computer Science &amp; Engineering Student | Web Developer</p>
+          <p class="hero-description">
+            Building responsive, modern web applications with clean software architecture while conducting ongoing undergraduate research on reliable multimodal pneumonia detection using medical imaging and clinical radiology reports.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn-solid">
+              <span>View Projects</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="#research" class="btn-outline">
+              <span>Ongoing Research</span>
+            </a>
+          </div>
+
+          <dl class="hero-stats">
+            <div class="stat-card">
+              <dt>Academic Status</dt>
+              <dd>7th Semester, CSE</dd>
+            </div>
+            <div class="stat-card">
+              <dt>Specialization</dt>
+              <dd>Web &amp; Software Dev</dd>
+            </div>
+            <div class="stat-card">
+              <dt>Undergraduate Thesis</dt>
+              <dd>Multimodal Medical AI</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="portrait-container">
+          <figure class="portrait-card">
+            <div class="portrait-media">
+              <img
+                src="sidratul-profile.jpg"
+                alt="Sidratul Muntaha — Computer Science and Engineering Student and Web Developer"
+                loading="eager"
+              />
+            </div>
+            <figcaption class="portrait-footer">
+              <span class="portrait-name">Sidratul Muntaha</span>
+              <span class="portrait-tag">CSE &bull; 7th Sem</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01. About & Education -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">01 / About &amp; Education</span>
+          <h2 class="section-title">Focused on clean software engineering and trustworthy AI.</h2>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-text reveal">
+            <p>
+              I am Sidratul Muntaha, a 7th-semester Computer Science &amp; Engineering student and Web Developer passionate about building functional, user-friendly digital solutions.
+            </p>
+            <p>
+              My technical foundation spans core programming languages including C, C++, Java, and Python alongside web technologies such as HTML, CSS, JavaScript, PHP, and MySQL. I enjoy translating complex requirements into structured, maintainable codebases across both web and desktop environments.
+            </p>
+            <p>
+              Alongside software development, I am actively working on my undergraduate research exploring multimodal deep learning for pneumonia detection, aiming to improve the reliability and clinical trustworthiness of medical AI systems.
+            </p>
+          </div>
+
+          <aside class="education-panel reveal" aria-label="Academic Background">
+            <div class="edu-top">
+              <span class="edu-label">Academic Background</span>
+              <span class="edu-pill">7th Semester</span>
+            </div>
+            <h3 class="edu-degree">B.Sc. in Computer Science &amp; Engineering</h3>
+            <p class="edu-summary">
+              Undergraduate coursework and practical engineering projects spanning algorithms, object-oriented programming, web systems, and database management.
+            </p>
+            <div class="edu-list">
+              <div class="edu-row">
+                <span>Current Standing</span>
+                <span>7th Semester</span>
+              </div>
+              <div class="edu-row">
+                <span>Primary Focus</span>
+                <span>Web Development</span>
+              </div>
+              <div class="edu-row">
+                <span>Research Area</span>
+                <span>Multimodal Medical AI</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. Technical Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">02 / Technical Expertise</span>
+          <h2 class="section-title">Languages, web technologies, and tools.</h2>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill-box">
+            <div class="skill-box-head">01 &bull; Core</div>
+            <h3>Programming Languages</h3>
+            <div class="skill-pills">
+              <span>C</span>
+              <span>C++</span>
+              <span>Java</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>Python</span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-box-head">02 &bull; Stack</div>
+            <h3>Web Technologies</h3>
+            <div class="skill-pills">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-box-head">03 &bull; Storage</div>
+            <h3>Database</h3>
+            <div class="skill-pills">
+              <span>MySQL</span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-box-head">04 &bull; Workflow</div>
+            <h3>Tools</h3>
+            <div class="skill-pills">
+              <span>GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03. Selected Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">03 / Selected Projects</span>
+          <h2 class="section-title">Featured web and desktop applications.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 01 -->
+          <article class="project-item reveal">
+            <div>
+              <div class="project-preview" aria-hidden="true">
+                <div class="ui-frame">
+                  <div class="ui-dots"><span></span><span></span><span></span></div>
+                  <div class="ui-bars">
+                    <div class="ui-bar accent"></div>
+                    <div class="ui-bar" style="width:90%;"></div>
+                    <div class="ui-bar" style="width:72%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <div>
+                  <div class="project-idx">PROJECT 01</div>
+                  <h3 class="project-name">E-commerce Website</h3>
+                  <p class="project-text">
+                    A responsive online shopping platform featuring dynamic product displays, interactive shopping cart functionality, and user-friendly product filtering.
+                  </p>
+                </div>
+
+                <div>
+                  <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="project-actions">
+                    <a href="https://sidratul-muntaha-1194.github.io/" target="_blank" rel="noopener noreferrer" class="link-btn">Live Demo &nearr;</a>
+                    <a href="https://github.com/sidratul-muntaha-1194" target="_blank" rel="noopener noreferrer" class="link-btn">GitHub &nearr;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02 -->
+          <article class="project-item reveal">
+            <div>
+              <div class="project-preview" aria-hidden="true">
+                <div class="ui-frame">
+                  <div class="ui-dots"><span></span><span></span><span></span></div>
+                  <div class="ui-bars">
+                    <div class="ui-bar accent" style="width:65%;"></div>
+                    <div class="ui-bar" style="width:85%;"></div>
+                    <div class="ui-bar" style="width:60%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <div>
+                  <div class="project-idx">PROJECT 02</div>
+                  <h3 class="project-name">Portfolio Website</h3>
+                  <p class="project-text">
+                    A personal portfolio website designed to showcase academic background, technical skills, projects, and development journey through a clean and elegant interface.
+                  </p>
+                </div>
+
+                <div>
+                  <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="project-actions">
+                    <a href="https://sidratul-muntaha-1194.github.io/portfolio_update/" target="_blank" rel="noopener noreferrer" class="link-btn">Live Demo &nearr;</a>
+                    <a href="https://github.com/sidratul-muntaha-1194/portfolio_update" target="_blank" rel="noopener noreferrer" class="link-btn">GitHub &nearr;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03 -->
+          <article class="project-item reveal">
+            <div>
+              <div class="project-preview" aria-hidden="true">
+                <div class="ui-frame">
+                  <div class="ui-dots"><span></span><span></span><span></span></div>
+                  <div class="ui-bars">
+                    <div class="ui-bar accent" style="width:45%;"></div>
+                    <div class="ui-bar" style="width:95%;"></div>
+                    <div class="ui-bar" style="width:80%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-body">
+                <div>
+                  <div class="project-idx">PROJECT 03</div>
+                  <h3 class="project-name">Scientific Calculator</h3>
+                  <p class="project-text">
+                    A desktop-based scientific calculator developed using Java Swing and NetBeans JFrame components, supporting mathematical, trigonometric, and advanced scientific expressions.
+                  </p>
+                </div>
+
+                <div>
+                  <div class="tech-stack">
+                    <span>Java</span>
+                    <span>Java Swing</span>
+                    <span>NetBeans</span>
+                  </div>
+                  <div class="project-actions">
+                    <a href="https://github.com/sidratul-muntaha-1194" target="_blank" rel="noopener noreferrer" class="link-btn">GitHub Code &nearr;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. Research -->
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">04 / Research &amp; Thesis</span>
+          <h2 class="section-title">Ongoing undergraduate research in medical AI.</h2>
+        </div>
+
+        <div class="research-card reveal">
+          <aside class="research-meta">
+            <div class="progress-tag">
+              <span class="dot"></span>
+              <span>Status: In Progress</span>
+            </div>
+
+            <dl class="meta-entry">
+              <dt>Research Type</dt>
+              <dd>Ongoing Undergraduate Research</dd>
+            </dl>
+
+            <dl class="meta-entry">
+              <dt>Focus Area</dt>
+              <dd>Multimodal Learning &amp; Medical AI Reliability</dd>
+            </dl>
+
+            <dl class="meta-entry">
+              <dt>Data Modalities</dt>
+              <dd>Chest X-ray Images &amp; Radiology Reports</dd>
+            </dl>
+          </aside>
+
+          <div>
+            <h3 class="research-title">
+              “Reliability of Multimodal Pneumonia Detection Using Chest X-ray Images and Radiology Reports”
+            </h3>
+            <p class="research-desc">
+              This ongoing undergraduate research explores multimodal learning for pneumonia detection by combining chest X-ray images with radiology reports, with an emphasis on improving the reliability of medical AI systems.
+            </p>
+
+            <div class="research-highlights">
+              <div class="highlight-box">
+                <h4>Visual Analysis</h4>
+                <p>Leveraging chest X-ray radiographs to capture visual diagnostic patterns.</p>
+              </div>
+              <div class="highlight-box">
+                <h4>Clinical Text</h4>
+                <p>Integrating radiology reports to align structured medical context with imaging.</p>
+              </div>
+              <div class="highlight-box">
+                <h4>Reliability Focus</h4>
+                <p>Evaluating consistency and trustworthiness in multimodal diagnostic predictions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05. Training & Certifications -->
+    <section class="section" id="training">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">05 / Training &amp; Certifications</span>
+          <h2 class="section-title">Specialized bootcamps and technical training.</h2>
+          <p class="section-subtitle">
+            Structured hands-on programs in product design, machine learning workflows, and Python software engineering.
+          </p>
+        </div>
+
+        <div class="training-grid">
+          <!-- Training 01 -->
+          <article class="training-card reveal">
+            <div class="training-glow" aria-hidden="true"></div>
+            <div class="training-header">
+              <div class="training-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+                  <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+                  <path d="M2 2l7.586 7.586"/>
+                  <circle cx="11" cy="11" r="2"/>
+                </svg>
+              </div>
+              <div class="training-badges">
+                <span class="training-duration">5 Days Intensive</span>
+                <span class="training-status">Completed</span>
+              </div>
+            </div>
+
+            <div class="training-body">
+              <span class="training-index">CREDENTIAL 01</span>
+              <h3 class="training-title">UI/UX Design Bootcamp</h3>
+              <div class="training-org">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                </svg>
+                <span>U.S. Startup UI/UX Bootcamp</span>
+              </div>
+              <p class="training-desc">
+                Completed an intensive cohort on <strong>“From Idea to Prototype with Figma AI”</strong>, mastering user-centered product architecture, wireframing, and interactive prototyping.
+              </p>
+
+              <ul class="training-highlights">
+                <li>User-centered interface architecture &amp; design systems</li>
+                <li>Rapid interactive prototyping powered by Figma AI</li>
+              </ul>
+            </div>
+
+            <div class="training-footer">
+              <div class="training-tags">
+                <span>Figma AI</span>
+                <span>UI/UX</span>
+                <span>Prototyping</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Training 02 -->
+          <article class="training-card reveal">
+            <div class="training-glow" aria-hidden="true"></div>
+            <div class="training-header">
+              <div class="training-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="4" y="4" width="16" height="16" rx="2"/>
+                  <rect x="9" y="9" width="6" height="6"/>
+                  <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/>
+                </svg>
+              </div>
+              <div class="training-badges">
+                <span class="training-duration">4 Months</span>
+                <span class="training-status">Completed</span>
+              </div>
+            </div>
+
+            <div class="training-body">
+              <span class="training-index">CREDENTIAL 02</span>
+              <h3 class="training-title">Machine Learning Training</h3>
+              <div class="training-org">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                </svg>
+                <span>RUET IoT Club</span>
+              </div>
+              <p class="training-desc">
+                Successfully completed the comprehensive <strong>Machine Learning Training Program</strong>, covering supervised &amp; unsupervised algorithms, feature engineering, and evaluation pipelines.
+              </p>
+
+              <ul class="training-highlights">
+                <li>End-to-end data preprocessing &amp; feature pipelines</li>
+                <li>Predictive modeling, validation &amp; performance metrics</li>
+              </ul>
+            </div>
+
+            <div class="training-footer">
+              <div class="training-tags">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Data Science</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Training 03 -->
+          <article class="training-card reveal">
+            <div class="training-glow" aria-hidden="true"></div>
+            <div class="training-header">
+              <div class="training-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"/>
+                  <polyline points="8 6 2 12 8 18"/>
+                </svg>
+              </div>
+              <div class="training-badges">
+                <span class="training-duration">50 Days &bull; 90 Hrs</span>
+                <span class="training-status">Completed</span>
+              </div>
+            </div>
+
+            <div class="training-body">
+              <span class="training-index">CREDENTIAL 03</span>
+              <h3 class="training-title">Python Programming</h3>
+              <div class="training-org">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                </svg>
+                <span>Bangladesh Hi-Tech Park</span>
+              </div>
+              <p class="training-desc">
+                Completed a rigorous 90-hour certification course on <strong>“Introduction to Python Programming”</strong>, establishing strong proficiency in Python scripting and applied ML foundations.
+              </p>
+
+              <ul class="training-highlights">
+                <li>Modular Python programming, data structures &amp; OOP</li>
+                <li>Applied scripting &amp; foundational ML workflows</li>
+              </ul>
+            </div>
+
+            <div class="training-footer">
+              <div class="training-tags">
+                <span>Python</span>
+                <span>Algorithms</span>
+                <span>Applied ML</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06. Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">06 / Contact</span>
+          <h2 class="section-title">Let’s connect for projects or research.</h2>
+        </div>
+
+        <div class="contact-layout">
+          <div class="reveal">
+            <p class="contact-intro">
+              Whether you have a web development opportunity, software collaboration, or academic inquiry, feel free to get in touch directly.
+            </p>
+
+            <div class="contact-links">
+              <div class="contact-tile">
+                <div>
+                  <span class="tile-kicker">Email</span>
+                  <a href="mailto:sidratulmuntaha1194@gmail.com" class="tile-val">sidratulmuntaha1194@gmail.com</a>
+                </div>
+                <button type="button" class="btn-copy" id="copyBtn">Copy</button>
+              </div>
+
+              <a href="https://github.com/sidratul-muntaha-1194" target="_blank" rel="noopener noreferrer" class="contact-tile">
+                <div>
+                  <span class="tile-kicker">GitHub</span>
+                  <span class="tile-val">github.com/sidratul-muntaha-1194</span>
+                </div>
+                <span>&nearr;</span>
+              </a>
+
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="contact-tile">
+                <div>
+                  <span class="tile-kicker">Facebook</span>
+                  <span class="tile-val">Sidratul Muntaha</span>
+                </div>
+                <span>&nearr;</span>
+              </a>
+            </div>
+          </div>
+
+          <form class="message-card reveal" id="contactForm">
+            <div class="field">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required />
+            </div>
+
+            <div class="field">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+            <p class="status-msg" id="statusMsg"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <span>&copy; 2026 Sidratul Muntaha. All rights reserved.</span>
+      <span>Computer Science &amp; Engineering &bull; Web Developer</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
